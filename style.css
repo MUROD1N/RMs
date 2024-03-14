@@ -1,0 +1,174 @@
+
+
+@media (min-width:390px) and (max-width:844px) {
+    body {
+        font-size: 15px;
+        width: 844px;
+    }
+.buttons ul li {
+    display: flex;
+    align-items:flex-end;
+}
+.bottom {
+    display: flex;
+    align-items:flex-end;
+}
+
+.hr {
+    position: absolute;
+    left: 540px;
+    bottom:90px;
+    
+}
+
+}
+
+.text {
+    color:aqua;
+    font-size: 50px;
+    font-family: "Anta", sans-serif;
+    position: absolute;
+    left: 270px;
+    top: 200px;
+}
+.anta-regular {
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+body {
+    background-image: url(./images/Дизайн\ без\ названия.png);
+    background-size: 1450px;
+}
+.logo {
+      display: flex;
+      position: absolute;
+}
+
+.buttons {
+    font-family: "Bebas Neue", sans-serif;
+    display: flex;
+    justify-content: right;
+    flex-flow:row center;
+    align-items: center;
+    gap: 32px;
+    font-size: 25px;
+}
+
+.buttons ul {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+}
+
+.hr {
+    background-color: #fff;
+    height: 2px;
+    width: 350px;
+    position: absolute;
+    left: 540px;
+    bottom:90px;
+}
+
+.buttons ul li {
+    font-weight: 400px;
+    font-size: 200;
+    line-height: 120%;
+}
+
+div img {
+    height: 50px;
+    width: 230px;
+    -webkit-filter: brightness(100%);
+-webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+-o-transition: all 1s ease;
+-ms-transition: all 1s ease;
+transition: all 1s ease
+}
+
+div img:hover {
+    -webkit-filter: brightness(300%);
+}
+
+b {
+    color:rgb(216, 108, 108)
+}
+.description {
+    color:aqua;
+    font-size: 50px;
+    position: absolute;
+    top: 170px;
+    left: 100px;
+    font-family: "Anta", sans-serif;
+    
+}
+.bottom {
+    font-family: "Bebas Neue", sans-serif;
+    font-size:20px;
+    position:absolute;
+    display: flex;
+    justify-content: space-between;
+    top:690px;
+    right:610px;
+    gap: 10px;
+ }
+ 
+ a {
+    color: rgb(182, 148, 233);
+    font-family: 'Montserrat'sans-serif;
+    margin: 10px 20px;
+    text-decoration: none
+ }
+
+ .blog:hover {
+    color:gold;
+ }
+
+ .about:hover {
+    color:gold;
+ }
+
+ .contact:hover {
+    color:gold;
+ }
+
+
+ .ins:hover {
+    color: gold;
+ }
+
+ .face:hover {
+    color: gold;
+ }
+
+ .x:hover {
+    color: gold;
+ }
+
+ .content {
+     position: absolute;
+     left: 300px;
+     top: 400px;
+ }
+
+ .bl-cont {
+    color:aqua;
+    font-size: 25px;
+    position: absolute;
+    left: 300px;
+    top: 350px;
+ }
+
+ .post {
+    color:#000;
+    width:auto;
+ }
