@@ -4,25 +4,18 @@
     body {
         font-size: 15px;
         width: 844px;
+        color:#000;
     }
 .buttons ul li {
     display: flex;
     align-items:flex-end;
 }
+
 .bottom {
     display: flex;
     align-items:flex-end;
 }
-
-.hr {
-    position: absolute;
-    left: 540px;
-    bottom:90px;
-    
 }
-
-}
-
 .text {
     color:aqua;
     font-size: 50px;
@@ -68,16 +61,6 @@ body {
     display: flex;
     gap: 24px;
 }
-
-.hr {
-    background-color: #fff;
-    height: 2px;
-    width: 350px;
-    position: absolute;
-    left: 540px;
-    bottom:90px;
-}
-
 .buttons ul li {
     font-weight: 400px;
     font-size: 200;
